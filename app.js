@@ -16,6 +16,8 @@ function change() {
         discount = 0;
         decrease.innerText = 0;
     }
+
+    
     
 
 
@@ -33,6 +35,6 @@ checks.forEach((check, index) => {
         setTimeout(() => {
             checkeds[index].innerHTML = "Task completed";
             check.style.background = "rgba(128, 0, 128, 0.334)";
-        }, 15000);
+        }, 20000);
     });
 });
